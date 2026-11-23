@@ -44,7 +44,7 @@ Submissions also have to ship as a cloudpickled `predict()` that runs in the pla
 | 1 | distil | 0.080 | $20.00 | +$1.60 | $21.60 |
 | 2 | lgbm-main | 0.072 | $21.60 | +$1.55 | $23.15 |
 | 3 | main-seeds | 0.070 | $23.15 | +$1.61 | $24.76 |
-| 4 | main-seeds | -0.060 | $24.76 | -$1.48 | $23.28 |
+| 4 | main-seeds | -0.0598 | $24.76 | -$1.48 | $23.28 |
 
 Final: **14th of 63** by balance (+16.4%).
 
