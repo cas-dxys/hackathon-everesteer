@@ -39,13 +39,14 @@ Submissions also have to ship as a cloudpickled `predict()` that runs in the pla
 
 ## Results
 
-**14th of 63** overall.
+| Round | Staked model | Round score | Stake | Payout | Balance |
+|---|---|---|---|---|---|
+| 1 | distil | 0.080 | $20.00 | +$1.60 | $21.60 |
+| 2 | lgbm-main | 0.072 | $21.60 | +$1.55 | $23.15 |
+| 3 | main-seeds | 0.070 | $23.15 | +$1.61 | $24.76 |
+| 4 | main-seeds | -0.060 | $24.76 | -$1.48 | $23.28 |
 
-| Round | Score |
-|---|---|
-| round_1 | TODO |
-| round_2 | TODO |
-| round_3 | TODO |
+Final: **14th of 63** by balance (+16.4%).
 
 ## Files
 
@@ -61,3 +62,5 @@ Submissions also have to ship as a cloudpickled `predict()` that runs in the pla
 
 Requires `everesteer-api>=0.4.1` and an `EIQ_API_KEY` in the environment. Data and models are
 written to `data/` and `models/`, which are git-ignored.
+
+The dataset and the benchmark predictions come from the Everesteer API and are not included.
